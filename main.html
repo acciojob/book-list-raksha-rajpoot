@@ -8,6 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container mt-4">
+        <h1 class="text-center">My<span>Book</span>List</h1>
+        
+        <div class="form-group">
+			<label>Title</label>
+           <input type="text" id="title" class="form-control my-2"><br>
+           <label>Author</label>
+			<input type="text" id="author" class="form-control my-2"><br>
+            <label>ISBN#</label>
+			<input type="text" id="isbn" class="form-control my-2"><br>
+            <button id="submit" class="btn btn-primary">Add Back</button>
+        </div>
+
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+            </tbody>
+        </table>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 

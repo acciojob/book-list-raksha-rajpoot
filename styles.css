@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+  body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .table th, .table td {
+            text-align: center;
+        }
+        .btn-danger {
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+    #title{
+		width:100%;
+	}
+    #author{
+		width:100%;
+	}
+    #isbn{
+		width:100%;
+	}
+#submit{
+	color:white;
+	background-color:blue;
+padding:10px;
+	border:3px solid skyblue;
+	border-radius:8px;
+}
+span{
+	color:blue;
+}
